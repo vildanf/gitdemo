@@ -14,3 +14,5 @@ Feature: OrangeHRM Login
     And I enter incorrect password in the password field
     And I click on the login button
     Then I see the error message
+
+    Scenario: InValid username
